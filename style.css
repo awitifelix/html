@@ -1,0 +1,60 @@
+Body{
+    font-family: Calibri,Helveatica,sans-serif;
+    background-color: blueviolet;
+}
+button{
+    background-color: #4CAF50;
+    width:auto;
+    color:red;
+    padding:11px;
+    margin:11px 11px;
+    border:none;
+    cursor:pointer;
+    position:relative;
+}
+form{
+    border: 6px;
+
+}
+::placeholder{
+    box-sizing: 20px;
+    color: indigo;
+    
+}
+inpu[type=text],input[type=password]{
+    width:54%;
+    margin:8px 0;
+    padding:12px 21px
+    display:inline-block;
+    border:2px solid orange;
+    position:relative;
+    align-self:center;
+    box-sizing:border-box;
+    
+}
+button:hover{
+    opacity:0.9;
+}
+.break-point::break{
+
+    content:"hiddentext";
+    font-size:4;
+    display:block;
+    line-height:0;
+}
+.container{
+    padding:28px;
+    background-color: grey;
+}
+h1{
+    text-align:center;
+}s
+
+
+
+
+
+
+
+
+
